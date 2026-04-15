@@ -1,0 +1,11 @@
+{% extends "admin_boost/change_form.html" %}
+{% load i18n %}
+{% block after_field_sets %}
+{{ block.super }}
+{% if rendered_preview %}
+<fieldset class="module aligned">
+  <h2>{% trans "Rendered preview" %}</h2>
+  <div class="form-row"><div class="readonly">{{ rendered_preview|safe }}</div></div>
+</fieldset>
+{% endif %}
+{% endblock %}
