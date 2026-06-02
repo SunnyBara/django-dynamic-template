@@ -12,7 +12,7 @@ license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
     "Django>=5.0,<6.0",
-    "django-namedid>=0.2.3",
+    "django-namedid>=1.0.0",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -25,8 +25,8 @@ classifiers = [
 dev = [
     "pytest>=8.3",
     "pytest-django>=4.5",
-    "django-virtualqueryset>=0.1.1",
-    "django-boosted>=1.0.0",
+    "django-virtualqueryset>=1.0.1",
+    "django-boosted>=1.0.1",
     "django-richtextfield>=1.6",
     "ruff>=0.5",
     "mypy>=1.0",
